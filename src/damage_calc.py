@@ -1,0 +1,2 @@
+def damege_calc(in_basicdamege,in_element=0,in_tribe=0,in_const=0,in_tension=0,in_warcry=1.0):
+	return in_basicdamege * (1 + in_element) * (1 + in_tribe) * (1 + in_tension * 0.5) + (in_tension * 10 )+ in_const
