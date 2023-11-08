@@ -32,5 +32,4 @@ frame_result.pack()
 calc_button.pack(side=LEFT)
 result_label.pack(side=LEFT)
 
-
 root.mainloop()
